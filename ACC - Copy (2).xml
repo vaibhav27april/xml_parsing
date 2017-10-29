@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Network DB_ID="-4096">
+  <Name>AHB</Name>
+  <Node DB_ID="1">
+    <Name>AHB</Name>
+    <TxMessage  DB_ID="2">
+      <Name>AHB_1A8</Name>
+      <ID>0x1A8</ID>
+      <Frametype>CAN Standard</Frametype>
+      <DLC>4</DLC>
+      <Comment></Comment>
+      <Signal DB_ID="9">
+        <Name>AHB_ALIVE_COUNTER_1A8</Name>
+        <Bitposition>28</Bitposition>
+        <Bitsize>2</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="8">
+        <Name>AHB_WARN_STATUS_SYSTEM</Name>
+        <Bitposition>6</Bitposition>
+        <Bitsize>1</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="7">
+        <Name>AHB_WARN_STATUS_BRAKE</Name>
+        <Bitposition>7</Bitposition>
+        <Bitsize>1</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="6">
+        <Name>AHB_CHECKSUM_1A8</Name>
+        <Bitposition>24</Bitposition>
+        <Bitsize>4</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="5">
+        <Name>AHB_MID_REQ</Name>
+        <Bitposition>0</Bitposition>
+        <Bitsize>4</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+    </TxMessage>
+    <TxMessage  DB_ID="1">
+      <Name>AHB_183</Name>
+      <ID>0x183</ID>
+      <Frametype>CAN Standard</Frametype>
+      <DLC>8</DLC>
+      <Comment></Comment>
+      <Signal DB_ID="4">
+        <Name>AHB_WARN_STATUS_SYSTEM</Name>
+        <Bitposition>52</Bitposition>
+        <Bitsize>1</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="3">
+        <Name>AHB_WARN_STATUS_BRAKE</Name>
+        <Bitposition>53</Bitposition>
+        <Bitsize>1</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="2">
+        <Name>AHB_ALIVE_COUNTER_183</Name>
+        <Bitposition>60</Bitposition>
+        <Bitsize>2</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+      <Signal DB_ID="1">
+        <Name>AHB_CHECKSUM_183</Name>
+        <Bitposition>56</Bitposition>
+        <Bitsize>4</Bitsize>
+        <Byteorder>Motorola</Byteorder>
+        <Valuetype>Unsigned</Valuetype>
+        <Factor>1</Factor>
+        <Offset>0</Offset>
+        <Minimum>0</Minimum>
+        <Maximum>0</Maximum>
+        <Unit></Unit>
+        <Comment></Comment>
+      </Signal>
+    </TxMessage>
+  </Node>
+</Network>
